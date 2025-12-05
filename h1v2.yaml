@@ -21,8 +21,8 @@ spec:
         name: postgres
         env:
           - name: POSTGRES_USER
-            value: user
+            value: user02
           - name: POSTGRES_PASSWORD
-            value: password01
+            value: password02
         ports:
         - containerPort: 5432
