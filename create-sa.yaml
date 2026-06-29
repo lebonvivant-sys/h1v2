@@ -3,3 +3,5 @@ kind: ServiceAccount
 metadata:
   name: useroot
   namespace: postgresql
+  annotations:
+    argocd.argoproj.io/tracking-id: postgresql:/ServiceAccount:postgresql/useroot
