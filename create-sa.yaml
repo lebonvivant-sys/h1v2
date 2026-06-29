@@ -5,3 +5,4 @@ metadata:
   namespace: postgresql
   annotations:
     argocd.argoproj.io/tracking-id: postgresql:/ServiceAccount:postgresql/useroot
+    
