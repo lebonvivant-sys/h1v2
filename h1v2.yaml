@@ -4,6 +4,8 @@ metadata:
   labels:
     app: h1v2
   name: h1v2
+  annotations:
+    argocd.argoproj.io/tracking-id: postgresql:/ServiceAccount:postgresql/useroot
 spec:
   replicas: 1
   selector:
